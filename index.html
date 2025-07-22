@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="scrollwtm.css">
+    <link rel="icon" type="imagew/x-icon" href="media/favicon.ico"> 
+    <style>
+        .video-container {
+            text-align: center; 
+        }
+    </style>
+</head> 
+<header>
+ <div class="header">
+    <h1 style="text-align: center;">Welcome to Morocco</h1>
+<div>
+ <div class="navbar">  
+    <nav> 
+        <ul>
+             <li><a href="index.html" class="menu-chosen" title="Go Home">Home</a></li>
+             <li class="dropdown">
+                <a href="history.html" title="Go to History">History</a>
+               <div class="dropdown-content">
+                 <a href="landmarks.html">Historic Landmarks</a>
+                 <a href="historicsites.html">Historic Sites</a>  
+                   </div></li>
+             <li class="dropdown">       
+                 <a href="beaches.html" title="Go to Beaches">Beaches</a> 
+                <div class="dropdown-content">
+                 <a href="dakhla.html">Dakhla</a> 
+                 <a href="alhoceima.html">Al Hoceima</a> 
+                 </div></li>        
+             <li class="dropdown">
+                <a href="medinas.html" title="Go to Medinas">Medinas</a>
+                <div class="dropdown-content">
+                <a href="casablanca.html">Casablanca</a>
+                <a href="marrakesh.html">Marrakesh</a>
+                </div></li> 
+             <li><a href="food.html" title="Go to Food">Food</a></li>  
+        </ul>
+    </nav>
+ </div>
+</header>
+<body>
+    <main>
+        <h2 style="text-align: center;">Home of the World Cup Semi-Finalists</h2>
+           <p style="text-align: center;">The Atlas Lions thrilled the football world during the 2022 World Cup in Qatar. Their historic achievement made Moroccans dream and united them around common values of sharing, joy and passion. 
+            Between Morocco and football, a story of love and challenges. A story that reminds us that nothing is impossible: We dream big.</p>
+            <p style="text-align: center;">Morocco, Kingdom of Light, has always shone in the world great sporting events. Thanks to the vision of His Majesty The King Mohammed VI, the efforts of the Royal Moroccan Football Federation, and the passion of the people, Moroccan football has always reserved for aficionados of the round ball moments of pure happiness, breathtaking moments.</p>
+            <div class="video-container">
+                <iframe alt="morocco vs brazil Highlights and Penalties Morocco vs Spain Fifa World Cup 2022 emotional cinematic goosebumps effect video" width="560" height="315" src="https://www.youtube.com/embed/4CeFiNYbZ68?si=7YFjQrgjA_0-KpwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>     
+            <p style="text-align: center;">Morocco shone with a thousand lights. Billions of views, likes, shares on the virtual world, and 35 million Moroccans in the street, jubilant, shouting with joy, from Tangier to Lagouira. 
+            The heroic feat of the Atlas Lions at the 2022 World Cup in Qatar resonated throughout Morocco and internationally: kingdom of light, experience and magic.</p>
+            <p style="text-align: center;">A radiant presence of Morocco on the international scene, and an invitation to come and visit and live the experience of a lifetime</p>
+            <p style="text-align: center;">The sublime beaches of Morocco, from the Mediterranean to the Atlantic, are the favourite playground of millions of football fans. Football is present everywhere, in the alleys of all Moroccan cities, in the villages and authentic douars, in the football clubs and academies, in the stadiums of international standards, in all homes and especially in the hearts of all Moroccans.</p>
+    </main>
+</body> 
+<footer>
+    <p>
+     <span style="background-color:#ffffff;">Let's Keep in Touch!
+      Enter your email below to stay informed on our latest news, blogs, and more! 
+     </span>
+      </p>
+     <label><input type="email" name="email" placeholder="Enter Your Email">
+        <button id="myBtn">Yallah!</button></label>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">×</span>
+        <p>Thank you for subscribing!</p>
+     </div>
+    </div>
+ <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>       
+</footer>
+</html>

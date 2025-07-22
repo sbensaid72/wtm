@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="scrollwtm.css">
+    <link rel="icon" type="imagew/x-icon" href="media/favicon.ico"> 
+</head>
+<header>
+    <div class="historyhead">
+        <div class="headers" ><a href="index.html" id="headers">Welcome to Morocco</a>
+    </div> 
+</header>
+<div>
+    <div class="navbar">  
+       <nav> 
+            <div style="text-align: center;"><ul>
+                <li><a href="index.html" title="Go Home">Home</a></li>
+                <li class="dropdown">
+                   <a href="history.html" title="Go to History">History</a>
+                  <div class="dropdown-content">
+                    <a href="landmarks.html">Historic Landmarks</a>
+                    <a href="historicsites.html">Historic Sites</a>  
+                      </div></li>
+                <li class="dropdown">       
+                    <a href="beaches.html" title="Go to Beaches">Beaches</a> 
+                   <div class="dropdown-content">
+                    <a href="dakhla.html">Dakhla</a> 
+                    <a href="alhoceima.html">Al Hoceima</a> 
+                    </div></li>        
+                <li class="dropdown">
+                   <a href="medinas.html" title="Go to Medinas">Medinas</a>
+                   <div class="dropdown-content">
+                   <a href="casablanca.html">Casablanca</a>
+                   <a href="marrakesh.html">Marrakesh</a>
+                   </div></li> 
+                <li><a href="food.html" title="Go to Food">Food</a></li>  
+           </ul></div>  
+       </nav>
+    </div>
+<footer>
+    <p>
+     <span style="background-color:#ffffff;">Let's Keep in Touch!
+      Enter your email below to stay informed on our latest news, blogs, and more! 
+     </span>
+      </p>
+     <label><input type="email" name="email" placeholder="Enter Your Email">
+        <button id="myBtn">Yallah!</button></label>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">×</span>
+        <p>Thank you for subscribing!</p>
+     </div>
+    </div>
+ <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>       
+</footer>
+</html>

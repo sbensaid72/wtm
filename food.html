@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="scrollwtm.css">
+        <link rel="icon" type="imagew/x-icon" href="media/favicon.ico"> 
+    </head>
+<header>
+ <div class="foodhead">
+    <div class="headers" ><a href="index.html" id="headers">Welcome to Morocco</a>
+ </div> 
+</header>
+<div class="navbar">
+  <nav> 
+    <div style="text-align: center;"><ul>
+       <li><a href="index.html" title="Go Home">Home</a></li>
+       <li class="dropdown">
+        <a href="history.html" title="Go to History">History</a>
+       <div class="dropdown-content">
+         <a href="landmarks.html">Historic Landmarks</a>
+         <a href="historicsites.html">Historic Sites</a>  
+           </div></li>
+     <li class="dropdown">       
+         <a href="beaches.html" title="Go to Beaches">Beaches</a> 
+        <div class="dropdown-content">
+         <a href="dakhla.html">Dakhla</a> 
+         <a href="alhoceima.html">Al Hoceima</a> 
+         </div></li>        
+     <li class="dropdown">
+        <a href="medinas.html" title="Go to Medinas">Medinas</a>
+        <div class="dropdown-content">
+        <a href="casablanca.html">Casablanca</a>
+        <a href="marrakesh.html">Marrakesh</a>
+        </div></li> 
+       <li><a href="food.html" class="menu-chosen" title="Go to Food">Food</a></li>
+    </ul></div>
+  </nav>
+</div>  
+<body> 
+  <h2 style="text-align: center;">Moroccan Food is as Welcoming as Moroccan People</h2>
+  <p style="text-align: center;">Morocco's culinary heritage embraces the deep-rooted traditions and cultural variety of the country. Couscous, Tajine, Pastilla, Mrouzia, and R'fissa, are some of the emblematic dishes of the country that you can’t resist.  Subtly composed of a wide variety of striking flavours and scents, Moroccan cuisine draws its originality from a combination between Berber, Arab-Andalusian, and Jewish culinary traditions. Thanks to its rich cultural heritage specific to each region, Morocco has built an undisputed reputation worldwide.</p>
+  <p style="text-align: center;">Subtly composed of a wide variety of striking flavours and scents, Moroccan cuisine draws its originality from a combination between Berber, Arab-Andalusian, and Jewish culinary traditions. Thanks to its rich cultural heritage specific to each region, Morocco has built an undisputed reputation worldwide. After a vote by 2.5 million Internet users, Moroccan cuisine was awarded the trophy for “World's Best Cuisine”.</p>
+  <p style="text-align: center;">Some of the emblematic dishes of the country that you can’t resist include:</p>
+  <div class="foodlist"><ul>
+    <li> Couscous</li>
+    This authentic Moroccan couscous is a colorful dish made with perfectly cooked couscous topped with lamb, a variety of stewed veggies and a flavorful broth.
+    <li>Tajine</li>
+    The succulent, stew-like dish which is slow-cooked in the traditional cookware. Typically, a tagine is a rich mixture of meat, poultry, or fish, and most often includes vegetables or fruit. Vegetables may also be cooked alone in the tagine. 
+    <li>Bastilla</li>
+    A light, crispy warqa pastry shell conceals savory saffron chicken, spicy omelet stuffing, and a crunchy topping of fried almonds sweetened with orange flower water. A garnish of powdered sugar and cinnamon adds to the unique blend of flavors.
+    <li>Mrouzia</li>
+    A sweet and savory Moroccan tagine that’s seasoned with ras el hanout, ginger, saffron, and cinnamon. Honey not only adds sweetness, but in earlier times also acted as a preservative in tandem with the spices.
+    <li>R'fissa</li>
+    A wonderfully savory chicken, onion, and lentil dish that's served on a bed of shredded trid pastry, msemen, meloui, or even day-old bread.
+  </ul></div> 
+</body>
+<footer>
+  <p>
+   <span style="background-color:#ffffff;">Let's Keep in Touch!
+    Enter your email below to stay informed on our latest news, blogs, and more! 
+   </span>
+    </p>
+   <label><input type="email" name="email" placeholder="Enter Your Email">
+      <button id="myBtn">Yallah!</button></label>
+  <div id="myModal" class="modal">
+  <div class="modal-content">
+      <span class="close">×</span>
+      <p>Thank you for subscribing!</p>
+   </div>
+  </div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+  modal.style.display = "none";
+}
+}
+</script>       
+</footer>
+ </html> 
